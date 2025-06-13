@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CalculadoraAreas</class>
+ <widget class="QMainWindow" name="CalculadoraAreas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>344</width>
+    <height>349</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>344</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuCalculo_de_areas">
+    <property name="title">
+     <string>Calculo de areas</string>
+    </property>
+    <addaction name="actionArea_del_circulo"/>
+    <addaction name="actionArea_del_triangulo"/>
+    <addaction name="actionArea_del_rectangulo"/>
+    <addaction name="actionArea_del_cuadrado"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuCalculo_de_areas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionArea_del_circulo">
+   <property name="text">
+    <string>Circulo</string>
+   </property>
+  </action>
+  <action name="actionArea_del_triangulo">
+   <property name="text">
+    <string>Triangulo</string>
+   </property>
+  </action>
+  <action name="actionArea_del_rectangulo">
+   <property name="text">
+    <string>Rectangulo</string>
+   </property>
+  </action>
+  <action name="actionArea_del_cuadrado">
+   <property name="text">
+    <string>Cuadrado</string>
+   </property>
+  </action>
+  <action name="actionMenu">
+   <property name="text">
+    <string>Menu</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
